@@ -99,7 +99,7 @@ class AddUser {
     /*Добавляем юзера на сервер*/
 
     serverAddUser (user) {
-        const url = 'http://easycode-js.herokuapp.com/olku/users';
+        const url = 'https://easycode-js.herokuapp.com/olku/users';
         fetch(url, {
             method: 'POST',
             headers: {

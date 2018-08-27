@@ -91,7 +91,7 @@ class EditUser {
     /*Изменяем юзера на сервер*/
 
     serverEditUser (user, id) {
-        const url = "http://easycode-js.herokuapp.com/olku/users/" + id;
+        const url = "https://easycode-js.herokuapp.com/olku/users/" + id;
         fetch(url, {
             method: 'PATCH',
             headers: {
@@ -133,7 +133,7 @@ class EditUser {
     }
 
     serverDeleteUser(id) {
-        const url = "http://easycode-js.herokuapp.com/olku/users/" + id;
+        const url = "https://easycode-js.herokuapp.com/olku/users/" + id;
         fetch(url, {
             method: 'DELETE',
         });
